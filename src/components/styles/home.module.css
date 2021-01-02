@@ -1,0 +1,26 @@
+.feed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.content{
+    margin-top: 20px;
+    overflow: auto;
+    height: 590px;
+    overflow-x: hidden;
+}
+
+.content div[title~=entry]{
+    width: 820px;
+    height: 170px;
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    align-items: center;
+}

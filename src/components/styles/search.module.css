@@ -1,0 +1,19 @@
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.result{
+    overflow: auto;
+    overflow-x: hidden;
+    height: 597px;
+}
+
+.loader{
+    height: 597px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
